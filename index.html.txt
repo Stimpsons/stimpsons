@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StimpSons | Golf Green Analysis & Ratings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StimpSons analyzes and rates golf course greens using stimpmeter data and professional evaluations.">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1f2d1f;
+            background-color: #f4f7f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                        url('https://images.unsplash.com/photo-1500382017468-9049fed747ef') center/cover;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 70px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2f5d3a;
+        }
+
+        .about, .services, .contact {
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #2f5d3a;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background: #1f2d1f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>StimpSons</h1>
+    <p>Precision analysis and ratings of golf course greens using stimpmeter data and expert evaluation.</p>
+</header>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        StimpSons provides objective, data-driven analysis of golf course greens.
+        By combining stimpmeter measurements with professional assessments,
+        we deliver accurate ratings that help courses maintain consistency,
+        fairness, and championship-level performance.
+    </p>
+</section>
+
+<section class="services">
+    <h2>What We Measure</h2>
+    <div class="services-grid">
+        <div class="card">
+            <h3>Stimp Speed</h3>
+            <p>Precise stimpmeter readings to evaluate green speed and consistency.</p>
+        </div>
+        <div class="card">
+            <h3>Smoothness & Roll</h3>
+            <p>Assessment of surface quality, ball roll, and imperfections.</p>
+        </div>
+        <div class="card">
+            <h3>Slope & Fairness</h3>
+            <p>Evaluation of slopes, pin placements, and playability.</p>
+        </div>
+        <div class="card">
+            <h3>Overall Rating</h3>
+            <p>A clear, easy-to-understand green rating for players and course managers.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+    <p>
+        Interested in having your greens analyzed?<br><br>
+        Email us at <strong>info@stimpsons.com</strong>
+    </p>
+</section>
+
+<footer>
+    © 2026 StimpSons. All rights reserved.
+</footer>
+
+</body>
+</html>
